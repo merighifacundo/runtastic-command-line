@@ -1,0 +1,32 @@
+{
+  "name": "runtastic-command-line",
+  "version": "1.0.0",
+  "description": "This is a command line to query runtastic records.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/merighifacundo/runtastic.command.line.git"
+  },
+  "keywords": [
+    "Runtastic",
+    "Javascript",
+    "CommandLine"
+  ],
+  "author": "Facundo Merighi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/merighifacundo/runtastic.command.line/issues"
+  },
+  "homepage": "https://github.com/merighifacundo/runtastic.command.line#readme",
+  "dependencies": {
+    "ansi-escape-sequences": "^4.0.0",
+    "cheerio": "^1.0.0-rc.2",
+    "command-line-args": "^5.0.1",
+    "command-line-usage": "^4.1.0",
+    "q": "^1.5.1",
+    "request": "^2.83.0"
+  }
+}
