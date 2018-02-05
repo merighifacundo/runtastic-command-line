@@ -21,6 +21,7 @@ login(options.username, options.password).then((loggedInInformation) => {
     session.user = loggedInInformation.user;
     session.authenticityToken = loggedInInformation.authenticityToken;
     records().then((response) => {
+        console.log(`Hey ${session.user.first_name} ${session.user.last_name}, your Runtastic records are: \n`)
         response.records.forEach((record) => {
             helper.displayRecord(record);
         })
