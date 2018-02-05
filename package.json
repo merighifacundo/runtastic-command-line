@@ -1,6 +1,6 @@
 {
   "name": "runtastic-command-line",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is a command line to query runtastic records.",
   "main": "index.js",
   "bin": {
@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "test",
-    "records":"Node index.js"
+    "records":"./index.js"
   },
   "repository": {
     "type": "git",
