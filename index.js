@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 /**
  * @author: Facundo Merighi (merighifacundo@gmail.com)
  * 
