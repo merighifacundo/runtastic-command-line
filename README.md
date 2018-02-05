@@ -19,10 +19,14 @@ Example
 
 ## Instalation
 
-- npm install 
+- npm install -g runtastic-command-line
 
 ## Getting Started
 
 The module can be used as a command line:
 
+if installed globally:
+-   runtastic --username="test@test.com" --password="password" 
+
+if installed locally in a project
 -   node index.js --username="test@test.com" --password="password" 
